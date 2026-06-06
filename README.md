@@ -14,8 +14,9 @@ It is assumed that you have never used Python / VS Code / git before. If you hav
    1. Contact Luis Galindo to be given access to the [KWL repositories](https://github.com/orgs/KerrWoodLeidal/repositories) you will be working with
 
 2. **Ensure you have a compatible version of Python installed**
-   1. Most scripts should work with Python 3.10 or later (the latest version I have installed is  [Python 3.13.3](https://www.python.org/downloads/release/python-3133/)).
-   2. However, if you intend to use `pyswmm` to run SWMM models, you should download [Python 3.11.9](https://www.python.org/downloads/release/python-3119/) to ensure compatibility with `pyswmm` (as of June 2025, the latest version of `pyswmm` is 2.0.1, which is not compatible with Python 3.12 or later).
+   1. Most scripts should work with Python 3.10 or later (the latest version I have installed is  [Python 3.13.3](https://www.python.org/downloads/release/python-3133/))
+   2. However, if you intend to use `pyswmm` to run SWMM models, you should download [Python 3.11.9](https://www.python.org/downloads/release/python-3119/) to ensure compatibility with `pyswmm` (as of June 2025, the latest version of `pyswmm` is 2.0.1, which is not compatible with Python 3.12 or later)
+   3. You can have multiple versions of Python installed on your computer, and specify which version to use when creating a virtual environment (see the [Terminal Actions](#terminal-actions) section below for more details)
 
 3. **Download [VS Code](https://code.visualstudio.com/download)** (if not already installed)
    1. When installing VS Code, you can leave all the options set to the defaults
@@ -31,8 +32,8 @@ It is assumed that you have never used Python / VS Code / git before. If you hav
 
 ---
 
-### Basic Actions Explained
-#### VS Code Actions
+## Basic Actions Explained
+### VS Code Actions
 - **Open a folder:** *File>Open Folder*, or Ctrl+K Ctrl+O
 - **Start a new terminal:** *Terminal>New Terminal*, or Ctrl+Shift+\`
 - **Save:** *File>Save*, or Ctrl+S
@@ -43,7 +44,7 @@ It is assumed that you have never used Python / VS Code / git before. If you hav
 - **Comment / Uncomment:** Ctrl+/
   - In .py files and .yml files, a comment is anything (in that line) after a pound sign: # (and in some instances, anything inside quotation marks or triple quotations)
 
-#### Terminal Actions
+### Terminal Actions
 - **Navigate to a sub-folder in the current directory:** `cd folder_name`
   - You can start typing the sub-folder name and hit tab and it will autocomplete if there is only one option that starts with the charcters you have typed
 - **Navigate back a folder:** `cd ..`
@@ -57,7 +58,9 @@ It is assumed that you have never used Python / VS Code / git before. If you hav
 - **Check Python version:** `py --version` 
   - Check all versions of Python installed: `py -0` or `py -0p` (to list with location of each version)
 
-#### Useful Git Commands
+---
+
+## Useful Git Commands
 These commands are run in the terminal just like the commands listed above, and you should be in the local repository folder to run them (you can use the `cd` command to navigate to the correct folder in the terminal). 
 
 For complete steps to get started with git, see the guide written by Luis Galindo: [GitWithIt](https://github.com/KerrWoodLeidal/03GitWithIt/tree/master) (I've also downloaded the HTML to the network [here](\\kwlstoreasy2\users\BBY\KZulauf\Scripting_ref\gitWithIt.html)). The commands listed below are just a few of the most common git commands that you will likely use. Another more complete resource for common git commands that is linked in GitWithIt is [Basic Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html). 
