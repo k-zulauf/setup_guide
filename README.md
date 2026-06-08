@@ -16,7 +16,8 @@ It is assumed that you have never used Python / VS Code / git before. If you hav
 2. **Ensure you have a compatible version of Python installed**
    1. Most scripts should work with Python 3.10 or later (the latest version I have installed is  [Python 3.13.3](https://www.python.org/downloads/release/python-3133/))
    2. However, if you intend to use `pyswmm` to run SWMM models, you should download [Python 3.11.9](https://www.python.org/downloads/release/python-3119/) to ensure compatibility with `pyswmm` (as of June 2025, the latest version of `pyswmm` is 2.0.1, which is not compatible with Python 3.12 or later)
-   3. You can have multiple versions of Python installed on your computer, and specify which version to use when creating a virtual environment (see the [Terminal Actions](#terminal-actions) section below for more details)
+   3. If you intend to write scripts to be run within PCSWMM (e.g., you are creating script tools for PCSWMM), you should use [Python 3.10.10](https://www.python.org/downloads/release/python-31010/), which is the same version that PCSWMM uses as of June 2026
+   4. You can have multiple versions of Python installed on your computer, and specify which version to use when creating a virtual environment (see the [Terminal Actions](#terminal-actions) section below for more details)
 
 3. **Download [VS Code](https://code.visualstudio.com/download)** (if not already installed)
    1. When installing VS Code, you can leave all the options set to the defaults
